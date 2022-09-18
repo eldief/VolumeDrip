@@ -45,7 +45,7 @@ contract VolumeDripImplementer is VolumeDrip {
     }
 
     /**
-     * @notice Implements whitelisted check to VolumeDrip20._addVolume function.
+     * @dev Implements whitelisted check to VolumeDrip._addVolume function.
      */
     function addVolume(address account, uint256 amount) external {
 
